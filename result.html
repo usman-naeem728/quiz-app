@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="shortcut icon" href="images/quiz.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body onload="renderResult()" class="gr2">
+
+    <div class="container">
+        <div class="row mt-6">
+            <div class="col-md-12 text-center">
+                <img src="images/award.png" alt="award icon" class="w-15">
+                <h1 class="text-center mt-2">WELL DONE</h1>
+                <h3 class="text-theme font-weight-bold mb-3" id="result"></h3>
+                <a href="javascript:void(0)" class="btn btn-theme" id="btn-start" onclick="takeAgain()">Start Quiz Again <i class="fas fa-redo"></i></a>
+            </div>
+        </div>
+    </div>
+    
+   
+    <script src="js/app.js"></script>
+</body>
+</html>
